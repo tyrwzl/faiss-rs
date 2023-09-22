@@ -18,6 +18,7 @@ fn static_link_faiss() {
         })
         .define("FAISS_ENABLE_PYTHON", "OFF")
         .define("BUILD_TESTING", "OFF")
+        .define("CMAKE_INSTALL_LIBDIR", "lib")
         .very_verbose(true);
     let dst = cfg.build();
     let faiss_location = dst.join("lib");
