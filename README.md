@@ -1,4 +1,4 @@
-# Faiss-rs
+# Faiss-rs 
 
 [![faiss at crates.io](https://img.shields.io/crates/v/faiss.svg)](https://crates.io/crates/faiss)
 [![Continuous integration status](https://github.com/Enet4/faiss-rs/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Enet4/faiss-rs/actions/workflows/ci.yml)
